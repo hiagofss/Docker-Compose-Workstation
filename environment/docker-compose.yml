@@ -21,7 +21,7 @@ services:
     container_name: phpmyadmin
     restart: always
     ports:
-      - 9090:80
+      - 8081:80
     environment:
       - PMA_ARBITRARY=1
 
@@ -43,7 +43,9 @@ services:
     container_name: pgadmin4
     restart: always
     ports:
-      - 9091:80
+      - 8082:80
+    volumes:
+      - ./pgadmin4/servers.json:/pgadmin4/servers.json
     environment:
       PGADMIN_DEFAULT_EMAIL: 'hiagofss98@gmail.com'
       PGADMIN_DEFAULT_PASSWORD: 'test@1234'
@@ -63,18 +65,16 @@ services:
     container_name: mongo-express
     restart: always
     ports:
-      - 8082:8081
+      - 8083:8081
     environment:
       ME_CONFIG_MONGODB_ADMINUSERNAME: root
       ME_CONFIG_MONGODB_ADMINPASSWORD: root
-
-
 
   mongoclient:
     image: mongoclient/mongoclient
     container_name: mongo-client
     ports:
-      - 8083:3000
+      - 8084:3000
     environment:
       STARTUP_DELAY: 10
       MONGO_URL: 'mongodb://root:root@mongo:27017/admin'
