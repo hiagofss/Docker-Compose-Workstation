@@ -73,6 +73,7 @@ services:
   mongoclient:
     image: mongoclient/mongoclient
     container_name: mongo-client
+    restart: always
     ports:
       - 8084:3000
     environment:
