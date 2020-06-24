@@ -45,7 +45,7 @@ services:
     ports:
       - 8082:80
     volumes:
-      - ./pgadmin4/servers.json:/pgadmin4/servers.json
+      - ./data/pgadmin/:/root/.pgadmin
     environment:
       PGADMIN_DEFAULT_EMAIL: 'hiagofss98@gmail.com'
       PGADMIN_DEFAULT_PASSWORD: 'test@1234'
@@ -86,6 +86,19 @@ services:
     restart: always
     ports:
       - 6379:6379
+    volumes:
+      - ./data/redis-data:/var/lib/redis
+      - ./data/redis.conf:/usr/local/etc/redis/redis.conf
+
+  redis-commander:
+    container_name: redis-commander
+    hostname: redis-commander
+    image: rediscommander/redis-commander:latest
+    restart: always
+    environment:
+    - REDIS_HOSTS=local:redis:6379
+    ports:
+    - "8085:8081"
 
   mailhog:
     image: mailhog/mailhog:latest
