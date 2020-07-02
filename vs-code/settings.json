@@ -1,0 +1,73 @@
+{
+    "workbench.colorTheme": "GitHub Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "files.exclude": {
+        // "**/.git": true,
+        // "**/.svn": true,
+        // "**/.hg": true,
+        // "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+    "breadcrumbs.enabled": true,
+    "git.enableSmartCommit": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.useWebExt": true,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        // "editor.defaultFormatter": "vscode.php-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "scm.alwaysShowActions": true,
+    "scm.alwaysShowProviders": true,
+    "problems.showCurrentInStatus": true,
+    "markdown.preview.breaks": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "default",
+            "filenamePattern": "*.md"
+        }
+    ],
+    "editor.formatOnType": true,
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "prettier.packageManager": "yarn",
+    "npm.enableRunFromFolder": true,
+    "npm.enableScriptExplorer": true,
+    "npm.packageManager": "yarn",
+    "markdown.allAvailableLanguages": true,
+    "markdown.showToolbar": true,
+    "material-icon-theme.activeIconPack": "react",
+    "remote.extensionKind": {
+        "ms-azuretools.vscode-docker": "workspace"
+    },
+    "tabnine.experimentalAutoImports": true,
+    "remote.SSH.remotePlatform": {
+        "192.168.56.101": "linux",
+        "192.168.56.104": "linux"
+    },
+}
