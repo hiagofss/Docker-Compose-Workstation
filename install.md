@@ -1,0 +1,4 @@
+-[] Google Chrome
+-[] Git
+-[] Docker Desktop
+-[] Git
