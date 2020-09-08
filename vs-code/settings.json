@@ -25,9 +25,10 @@
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.useWebExt": true,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        // "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[php]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -55,12 +56,12 @@
     ],
     "editor.formatOnType": true,
     "javascript.format.insertSpaceAfterConstructor": true,
-    "prettier.packageManager": "yarn",
+    "prettier.packageManager": "npm",
     "npm.enableRunFromFolder": true,
     "npm.enableScriptExplorer": true,
-    "npm.packageManager": "yarn",
+    "npm.packageManager": "npm",
     "markdown.allAvailableLanguages": true,
-    "markdown.showToolbar": true,
+    // "markdown.showToolbar": true,
     "material-icon-theme.activeIconPack": "react",
     "remote.extensionKind": {
         "ms-azuretools.vscode-docker": "workspace"

@@ -1,6 +1,5 @@
 {
     "force.allowAnonymousUsageTracking": true,
-    "update.mode": "none",
     "workbench.colorTheme": "GitHub Dark",
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
@@ -20,8 +19,10 @@
     "xml.java.home": "C:\\Program Files\\Java\\jdk1.8.0_251",
     "codescan.ls.javaHome": "C:\\Program Files\\Java\\jdk1.8.0_251",
     "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true,
-    "salesforcedx-vscode-core.retrieve-test-code-coverage": true,
-    "salesforcedx-vscode-core.experimental.deployRetrieve": true,
     "salesforcedx-vscode-apex.java.home": "C:\\Program Files\\Java\\jdk1.8.0_251",
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.enableSmartCommit": true,
+    "salesforcedx-vscode-apex.enable-sobject-refresh-on-startup": true,
+    "salesforcedx-vscode-core.detectConflictsAtSync": true,
+    "visualforce.format.indentInnerHtml": true,
 }
