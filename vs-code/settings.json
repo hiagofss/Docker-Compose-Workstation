@@ -1,6 +1,5 @@
 {
     "workbench.colorTheme": "GitHub Dark",
-    "workbench.iconTheme": "material-icon-theme",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.fontFamily": "Fira Code",
@@ -18,34 +17,21 @@
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
+    "prettier.bracketSpacing": true,
     "prettier.singleQuote": true,
     "prettier.jsxSingleQuote": true,
     "breadcrumbs.enabled": true,
     "git.enableSmartCommit": true,
-    "liveServer.settings.donotVerifyTags": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.useWebExt": true,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "[javascript]": {
-        // "editor.defaultFormatter": "vscode.typescript-language-features"
+    "[javascript, php, json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-    },
-    "[php]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-        // "editor.defaultFormatter": "vscode.php-language-features"
     },
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "extensions.showRecommendationsOnlyOnDemand": true,
     "scm.alwaysShowActions": true,
-    "scm.alwaysShowProviders": true,
     "problems.showCurrentInStatus": true,
     "markdown.preview.breaks": true,
     "workbench.editorAssociations": [
@@ -56,19 +42,26 @@
     ],
     "editor.formatOnType": true,
     "javascript.format.insertSpaceAfterConstructor": true,
-    "prettier.packageManager": "npm",
     "npm.enableRunFromFolder": true,
-    "npm.enableScriptExplorer": true,
     "npm.packageManager": "npm",
-    "markdown.allAvailableLanguages": true,
-    // "markdown.showToolbar": true,
-    "material-icon-theme.activeIconPack": "react",
     "remote.extensionKind": {
         "ms-azuretools.vscode-docker": "workspace"
     },
-    "tabnine.experimentalAutoImports": true,
     "remote.SSH.remotePlatform": {
         "192.168.56.101": "linux",
         "192.168.56.104": "linux"
     },
+    "editor.linkedEditing": true,
+    "files.autoSave": "onWindowChange",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.tabs.enabled": true,
 }
