@@ -1,67 +1,65 @@
 {
     "workbench.colorTheme": "GitHub Dark",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.fontFamily": "Fira Code",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.fontLigatures": true,
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "files.trimTrailingWhitespace": true,
     "files.exclude": {
         // "**/.git": true,
         // "**/.svn": true,
         // "**/.hg": true,
         // "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/node_modules": true
+        // "**/.DS_Store": true,
+        // "**/node_modules": true
     },
+    "files.autoSave": "onWindowChange",
+    "emmet.triggerExpansionOnTab": true,
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
     "prettier.bracketSpacing": true,
-    "prettier.singleQuote": true,
-    "prettier.jsxSingleQuote": true,
     "breadcrumbs.enabled": true,
     "git.enableSmartCommit": true,
-    "[javascript, php, json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-    },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
     "scm.alwaysShowActions": true,
     "problems.showCurrentInStatus": true,
     "markdown.preview.breaks": true,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "default",
-            "filenamePattern": "*.md"
-        }
-    ],
-    "editor.formatOnType": true,
+    "workbench.editorAssociations": {
+        "*.md": "default"
+    },
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
     "javascript.format.insertSpaceAfterConstructor": true,
     "npm.enableRunFromFolder": true,
     "npm.packageManager": "npm",
     "remote.extensionKind": {
         "ms-azuretools.vscode-docker": "workspace"
     },
-    "remote.SSH.remotePlatform": {
-        "192.168.56.101": "linux",
-        "192.168.56.104": "linux"
-    },
     "editor.linkedEditing": true,
-    "files.autoSave": "onWindowChange",
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "emmet.triggerExpansionOnTab": true,
+    "terminal.integrated.tabs.enabled": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.enableDebugLogs": true,
+    "prettier.singleQuote": true,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true,
+    "editor.trimAutoWhitespace": true,
+    "prettier.semi": true,
+    "html.autoClosingTags": true,
+    "javascript.autoClosingTags": true,
+    "typescript.autoClosingTags": true,
+    "tabnine.experimentalAutoImports": true,
+    "quokka.automaticRestart": true,
+    "quokka.compactMessageOutput": true,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "terminal.integrated.tabs.enabled": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }

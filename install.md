@@ -1,4 +1,7 @@
 -[] Google Chrome
 -[] Git
 -[] Docker Desktop
--[] Git
+-[] PowerToys
+-[] Postman
+-[] Logitech Options
+-[] DBeaver
